@@ -2,9 +2,6 @@ export class Register{
     goToRegister(){
         cy.get('#loginPanel').find('a').contains('Register').click();
     }
-    // blurUsername(){
-    //     cy.get("input[name='username']").blur();
-    // }
     fillFirstName(firstName:string){
         cy.get("input[id='customer.firstName']").type(firstName);
     };

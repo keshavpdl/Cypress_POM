@@ -1,2 +1,2 @@
-firstName,lastName,address,city,state,zipCode,SSN,userName,password
-Keshav,Poudel,Kathmandu,Kathmandu,Bagmati,44600,23579,Keshav20,Keshav20
+firstName,lastName,fullName,address,city,state,zipCode,SSN,userName,password
+Keshav,Poudel,Keshav Poudel,Kathmandu,Kathmandu,Bagmati,44600,23579,Keshav222,Keshav222

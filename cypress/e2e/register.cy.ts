@@ -6,14 +6,11 @@ import {Register} from "../pages/register";
 describe('Register',()=>{
     let register= new Register();
     before('Visit Register',()=>{
-        cy.visit(" https://parabank.parasoft.com/parabank/index.htm");
+        cy.visit("/parabank/index.htm");
         register.goToRegister();
     })
-    // it.only('Register user without any details',()=>{
-    //     register.clickRegister();
-    // })
+
     it("Register new user with all details",()=>{
-        // const register =new Register()
         const details={
             firstName:faker.person.firstName(),
             lastName:faker.person.lastName(),
